@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+body{
+    background-color: #f4f4f4;
+}
+#header{
+    color: white;
+    font-size:32px;
+    width: 100vw;  
+}
+
+#firsthead{
+    height: 55px;
+    /* background-color:rgba(75, 44, 4, 0.849);*/ 
+    /* background-color:#5e503f ; */
+    /* background-color:#264653; */
+    /* background-color: #283618; */
+    background-color: #22223b;
+    background-color: #0d1b2a;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#font{
+    padding-left: 25px;
+}
+#search{
+    padding-left: 270px;
+    font-size: 24px;
+}
+#menu{
+    padding-left: 55px;
+    font-size: 24px;
+}
+
+
+#secondhead{
+    height: 55px;
+    /* background-color:#5e503f; */
+    /* background-color:#ffc8dd; */
+    /* background-color:#264653; */
+    /* background-color: #283618; */
+    /* background-color: #22223b; */
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+ }
+#group:hover{
+    text-decoration : underline;
+    padding-top: 10px;
+}
+
+a{
+   border: none; 
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+a:hover{
+   text-decoration : underline;
+   padding-top: 10px;
+   font-size: 23px;
+}
+#screen{
+    height: 90vh;
+    /* background-color: #606c38; */
+    /* background-color:#c6ac8f;  */
+    /* background-color:#cdb4db;  */
+    /* background-color:#2a9d8f;  */
+    /* background-color: #1b263b; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#c1chat,#c2chat,#c3chat,#c4chat,#c5chat,#c6chat,#c7chat,#c8chat,#c9chat,#c10chat,#c11chat{
+    
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c1chat:hover,#c2chat:hover,#c3chat:hover,#c4chat:hover,#c5chat:hover,#c6chat:hover,#c7chat:hover,#c8chat:hover,#c9chat:hover,#c10chat:hover,#c11chat:hover{
+   background-color: #d4d4e3
+   /* background-color: #415a77; */
+   
+}
+#pp1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url("icons/pp1.jpg");
+    margin-left: 12px;
+}
+#name{
+    width: 90vw;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #22333b;
+}
+ 
+#c1chat+hr{
+    color:  black ;
+}
+
+
